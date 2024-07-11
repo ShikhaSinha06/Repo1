@@ -26,7 +26,7 @@
         <li><button id="addToWishlistButton" type="button">Add to Wishlist</button></li>
         <li><button id="addToCartButton" type="button">Add to Cart</button></li>
         <li><button id="checkoutButton" type="button">Check Out</button></li>
-        <li><button id="purchaseButton" type="button">Purchase</button></li>
+        <li><button id="purchaseButton" type="button">Buy</button></li>
         <li><button id="subcribeButton" type="button">Subscribe</button></li>
         <li><button id="registrationButton" type="button">Registration</button></li>
     </ul>
@@ -38,7 +38,7 @@ document.getElementById('addToWishlistButton').addEventListener('click', functio
 }, false);
 
 document.getElementById('addToCartButton').addEventListener('click', function() {
-  fbq('track', 'remove to cart');
+  fbq('track', 'Add to Cart');
 }, false);
 
 document.getElementById('checkoutButton').addEventListener('click', function() {
